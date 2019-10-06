@@ -16,7 +16,7 @@ function Skills() {
                             <img src="" alt="icon"/>
                         </div>
                         <span className={styles.skillTitle}>JavaScript</span>
-                        <span className={styles.description}>JavaScript</span>
+                        <span className={styles.description}>Lorem ipsum dolor sit amet, consectetur adipisicing elitf. Nobis, nostrum.</span>
                     </div>
                     <div className={styles.skill}>
                         <div className={styles.icon}>
