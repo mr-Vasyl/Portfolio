@@ -1,6 +1,6 @@
 .main {
     height: 100vh;
-    background-color: #1f1f20;
+    /*background-color: #1f1f20;*/
     display: flex;
     justify-content: center;
     padding: 100px 0;
@@ -84,4 +84,19 @@ h1 {
     .container {
         flex-direction: column;
     }
+}
+@media screen and (max-width: 600px) {
+    .image {
+        height: 360px;
+        width: 260px;
+        background-color: burlywood;
+    }
+    .photo .image:before {
+
+        width: 260px;
+        height: 360px;
+
+
+    }
+
 }

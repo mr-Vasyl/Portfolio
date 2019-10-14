@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from './Contacts.module.css'
+import BlockTitle from "./BlockTitle";
 
 function Contacts() {
     return (
         <div className={styles.contacts}>
             <div className={styles.container}>
-                <span className={styles.blockTitle}>Контакти</span>
+                <BlockTitle title={"Контакти"} />
                 <form className={styles.formWrapper}>
                     <input className={styles.formArea} type="text" placeholder="Імя"/>
                     <input className={styles.formArea} type="text" placeholder="E-mail"/>

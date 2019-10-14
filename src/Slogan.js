@@ -6,7 +6,7 @@ function Slogan() {
         <div className={styles.slogan}>
             <div className={styles.container}>
                 <div className={styles.head}>Розглядаю варіант дистанційної роботи</div>
-                <button>Найняти мене</button>
+                <button className={styles.btnShow}>Найняти мене</button>
             </div>
         </div>
     );

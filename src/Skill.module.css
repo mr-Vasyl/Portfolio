@@ -3,7 +3,6 @@
     background-color: #252527;
     display: flex;
     justify-content: center;
-    position: relative;
 }
 
 .container {
@@ -48,12 +47,37 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
+
+
+}
+
+.skillTitle {
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 16px;
+    font-width: 700;
+    line-height: 1.2;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
 }
 
 .icon {
     height: 80px;
     width: 80px;
-    background-color: #ededed;
+    background: rgba(255, 255, 255, 0.1);
+    transform: rotate(45deg);
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    transform: rotate(-45deg);
+    width: 90%;
+
 }
 
 .description {
@@ -68,11 +92,6 @@
     }
 }
 
-@media screen and (max-width: 600px) {
-    .skill {
-        width: 100%;
-    }
-}
 
 @media screen and (max-width: 1128px) {
     .skill {
@@ -83,5 +102,6 @@
 @media screen and (max-width: 630px) {
     .skill {
         width: 100%;
+
     }
 }
