@@ -1,5 +1,5 @@
 .App {
-
+    scroll-behavior: smooth;
 }
 .particles {
     position: fixed !important;

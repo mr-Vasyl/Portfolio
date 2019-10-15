@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Projects.module.css'
 import BlockTitle from "./BlockTitle";
 import Project from "./Project";
-
+import {Fade} from "react-reveal";
 function Projects() {
     const todoListImg ={
         backgroundImage: 'url(${todoListBgImg})',
@@ -15,18 +15,19 @@ function Projects() {
     }
     return (
         <div className={styles.projects}>
+            <Fade clear>
             <div className={styles.container}>
                <BlockTitle title={"Мої проекти"} />
                 <div className={styles.projectsWrapper}>
                     <Project title={"To do List"}
                              style={todoListImg}
-                    description={"Lorem5 Lorem5Lorem5Lorem5"}/>
+                    description={"Tantas mollis propriae ne duo, ei dico esse eros vix, vim suas discere phaedrum ea. Cu magna adversarium duo. Ei eam ornatus vivendo, quo an autem facilisi."}/>
                     <Project title={"Social Network"}
                              style={socialNetworkImg}
-                             description={"Lorem5 Lorem5Lorem5Lorem5"}/>
+                             description={"Tantas mollis propriae ne duo, ei dico esse eros vix, vim suas discere phaedrum ea. Cu magna adversarium duo. Ei eam ornatus vivendo, quo an autem facilisi."}/>
                     <Project title={"Calculator"}
                              style={calculatorImg}
-                             description={"Lorem5 Lorem5Lorem5Lorem5"}/>
+                             description={"Tantas mollis propriae ne duo, ei dico esse eros vix, vim suas discere phaedrum ea. Cu magna adversarium duo. Ei eam ornatus vivendo, quo an autem facilisi."}/>
                     {/*<div className={styles.project}>*/}
                     {/*    <div className={styles.projectImg}>*/}
                     {/*        <a className={styles.btnShow} href=""> смотреть</a>*/}
@@ -50,6 +51,7 @@ function Projects() {
                     {/*</div>*/}
                 </div>
             </div>
+            </Fade>
         </div>
 
     );

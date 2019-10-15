@@ -25,13 +25,13 @@
 .project {
     width: 500px;
     display: flex;
-   background-color: #fff;
+
     flex-direction: column;
 
 }
 .projectImg {
     height: 300px;
-    background-color: #ededed;
+    background-color: burlywood;
     display: flex;
     justify-content: center;
     align-items: center;

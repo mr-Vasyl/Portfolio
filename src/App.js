@@ -10,6 +10,7 @@ import Contacts from "./Contacts";
 import Footer from "./Footer";
 import Particles from "react-particles-js";
 
+
 const particlesOpt = {
     particles: {
         number: {
