@@ -2,7 +2,10 @@ import React from 'react';
 import styles from './Skills.module.css'
 import Skill from "./Skill";
 import reactIcon from './assets/img/react.svg'
+import css from './assets/img/css.svg'
+import js from './assets/img/jsLogo.svg'
 import {Fade} from "react-reveal";
+import BlockTitle from "./BlockTitle";
 
 
 function Skills() {
@@ -12,38 +15,15 @@ function Skills() {
             <Fade clear>
                 <div className={styles.container}>
                     <div className={styles.headerTitle}>
-                        <h3 className={styles.blockTitle}>Мої скіли</h3>
-                        <div className={styles.line}></div>
+                        <BlockTitle title={"Мої скіли"}/>
                     </div>
 
                     <div className={styles.skillsWrapper}>
-                        <Skill icon={reactIcon} title={"JavaScript"}
-                               description={" dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametr sit amet"}/>
-                        <Skill icon={reactIcon} title={"JavaScript"}
-                               description={"Lorem ipsLorem ipsum dolLorem ipsum dolor sit ametLorem ipsum dolor sit ametor sit ametLorem ipsum dolor sit ametum dolor sit amet"}/>
-                        <Skill icon={reactIcon} title={"JavaScript"} description={"Lorem ipsum dolor sit amet"}/>
+                        <Skill icon={css} title={"Html/Css"}/>
+                        <Skill icon={js} title={"JavaScript"}/>
+                        <Skill icon={reactIcon} title={"React/Redux"}/>
 
-                        {/*<div className={styles.skill}>*/}
-                        {/*    <div className={styles.icon}>*/}
-                        {/*        <img src="" alt="icon"/>*/}
-                        {/*    </div>*/}
-                        {/*    <span className={styles.skillTitle}>JavaScript</span>*/}
-                        {/*    <span className={styles.description}>Lorem ipsum dolor sit amet, consectetur adipisicing elitf. Nobis, nostrum.</span>*/}
-                        {/*</div>*/}
-                        {/*<div className={styles.skill}>*/}
-                        {/*    <div className={styles.icon}>*/}
-                        {/*        <img src="" alt="icon"/>*/}
-                        {/*    </div>*/}
-                        {/*    <span className={styles.skillTitle}>JavaScript</span>*/}
-                        {/*    <span className={styles.description}>JavaScript</span>*/}
-                        {/*</div>*/}
-                        {/*<div className={styles.skill}>*/}
-                        {/*    <div className={styles.icon}>*/}
-                        {/*        <img src="" alt="icon"/>*/}
-                        {/*    </div>*/}
-                        {/*    <span className={styles.skillTitle}>JavaScript</span>*/}
-                        {/*    <span className={styles.description}>JavaScript</span>*/}
-                        {/*</div>*/}
+
                     </div>
                 </div>
             </Fade>

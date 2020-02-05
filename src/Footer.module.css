@@ -7,7 +7,7 @@
 }
 
 .container {
-    border: 1px solid;
+
     width: 80%;
     display: flex;
     align-items: center;
@@ -17,26 +17,26 @@
 }
 
 .socialBlock {
-    border: 1px solid;
+
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;;
     width: 400px;
     margin-top: -30px;
 }
 
 .socialIcon {
-    border: 1px solid #4a4a4a;
+    /*border: 1px solid #4a4a4a;*/
     height: 60px;
     width: 60px;
     border-radius: 50%;
 }
-.socialIcon:hover {
-    border: 1px solid #ffffff;
-    transition:all  0.3s ease-in-out 0s;
-}
+/*.socialIcon:hover {*/
+/*    border: 1px solid #ffffff;*/
+/*    transition:all  0.3s  0s;*/
+/*}*/
 
 .socialIcon img {
-    width: 60%;
+    width: 80%;
 }
 
 .socialIcon a {
@@ -51,6 +51,7 @@
     margin-top: 60px;
     font-size: 12px;
     opacity: 0.6;
+    margin-top: 40px;
 }
 
 @media screen and (max-width: 626px) {

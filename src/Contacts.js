@@ -8,7 +8,7 @@ function Contacts() {
         <div id={"contacts"} className={styles.contacts}>
             <Fade clear>
                 <div className={styles.container}>
-                    <BlockTitle title={"Контакти"}/>
+                    <BlockTitle title={"Напишіть мені"}/>
                     <form className={styles.formWrapper}>
                         <input className={styles.formArea} type="text" placeholder="Імя"/>
                         <input className={styles.formArea} type="text" placeholder="E-mail"/>
