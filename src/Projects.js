@@ -19,7 +19,7 @@ function Projects() {
         <div className={styles.projects}>
             <Fade clear>
             <div className={styles.container}>
-               <BlockTitle title={"Мої проекти"} />
+               <BlockTitle title={"WORKS"} />
                 <div className={styles.projectsWrapper}>
 
                     <Project title={"To do List"}

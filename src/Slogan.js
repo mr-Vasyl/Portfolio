@@ -9,7 +9,7 @@ function Slogan() {
         <div className={styles.slogan}>
             <Fade clear>
                 <div className={styles.container}>
-                    <BlockTitle title={"Мої Контакти"}/>
+                    <BlockTitle title={"CONTACT INFO"}/>
                     {/*<div className={styles.head}>Контакти</div>*/}
                     {/*<button className={styles.btnShow}>Найняти</button>*/}
 <div className={styles.contact}>

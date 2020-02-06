@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Project.module.css'
 
-
 function Project(props) {
     return (
         <div className={styles.project}>
+
             <img src={props.img} />
             <div className={styles.projectImg} style={props.style}>
 

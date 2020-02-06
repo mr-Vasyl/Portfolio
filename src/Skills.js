@@ -15,7 +15,7 @@ function Skills() {
             <Fade clear>
                 <div className={styles.container}>
                     <div className={styles.headerTitle}>
-                        <BlockTitle title={"Мої скіли"}/>
+                        <BlockTitle title={"MY SKILLS"}/>
                     </div>
 
                     <div className={styles.skillsWrapper}>

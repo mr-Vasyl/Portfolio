@@ -1,6 +1,6 @@
 .footer {
     max-height: 300px;
-    background-color: #252527;
+    background-color: #1f1f20;
     display: flex;
     justify-content: center;
     position: relative;
@@ -19,21 +19,19 @@
 .socialBlock {
 
     display: flex;
-    justify-content: space-evenly;;
+    justify-content: space-evenly;
     width: 400px;
     margin-top: -30px;
 }
 
 .socialIcon {
-    /*border: 1px solid #4a4a4a;*/
-    height: 60px;
-    width: 60px;
+    /*border: 1px solid coral;*/
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
 }
-/*.socialIcon:hover {*/
-/*    border: 1px solid #ffffff;*/
-/*    transition:all  0.3s  0s;*/
-/*}*/
+
+
 
 .socialIcon img {
     width: 80%;
@@ -51,7 +49,7 @@
     margin-top: 60px;
     font-size: 12px;
     opacity: 0.6;
-    margin-top: 40px;
+    /*margin-top: 40px;*/
 }
 
 @media screen and (max-width: 626px) {

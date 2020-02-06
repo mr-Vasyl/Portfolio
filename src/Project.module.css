@@ -35,13 +35,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /*text-decoration: none;*/
+
 }
 
 
 .btnShow {
     width: 150px;
     height: 50px;
-    background-color: #fff;
+    color: #97a1a6;
+    background-color: #252527;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,11 +52,38 @@
     font-family: 'Josefin Sans', sans-serif;
     align-self: center;
     text-transform: uppercase;
-
+    text-decoration: none;
     position: absolute;
 
+}
+
+/*.btnShow::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    background-color: coral;*/
+/*    width: 86px;*/
+/*    height: 8px;*/
+/*    bottom: 0;*/
+/*    z-index: -1;*/
+/*}*/
+
+/*.btnShow:hover::after {*/
+/*    width: 100px;*/
+/*    height: 100%;*/
+/*    transition: all 0.2s ease-in-out;*/
+/*}*/
+
+
+.btnShow:hover {
+    border: 2px solid coral;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: #252527;
 
 }
+
+
 .project img {
     position: absolute;
 }

@@ -24,7 +24,7 @@ function Main() {
                 <div className={styles.greeting}>
                     <span>Привіт!</span>
                     <span>Я Василь <span>Герчак</span></span>
-                    <h1>Я Front-end розроботчик</h1>
+                    <h1>Я junior Front-end розроботчик</h1>
                 </div>
                 <div className={styles.photo}>
                     <div className={styles.image}><img src={window.location.origin + '/logo.png'}/></div>
