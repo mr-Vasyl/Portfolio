@@ -6,6 +6,8 @@
 
 .projectTitle {
     text-align: center;
+    margin-top: 10px;
+    font-size: large;
 }
 
 .projectImg {
@@ -13,13 +15,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
+
 
 .description {
     margin: 0 15px 20px;
+    text-align: center;
 }
 
 .btnShow {
+
     width: 150px;
     height: 50px;
     color: #97a1a6;
@@ -33,15 +39,17 @@
     text-transform: uppercase;
     text-decoration: none;
     position: absolute;
+    border: 2px solid coral;
+    transition: 0.4s;
 }
 
+
 .btnShow:hover {
-    border: 2px solid coral;
-    width: 150px;
-    height: 50px;
+
     color: white;
     background-color: #252527;
 }
+
 
 .project img {
     position: absolute;

@@ -3,11 +3,11 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 
 import s from './Skills.module.css'
 import Skill from "./Skill";
-import BlockTitle from "./BlockTitle";
+import BlockTitle from "../BlockTitle/BlockTitle";
 
-import reactIcon from './assets/img/react.svg'
-import css from './assets/img/css.svg'
-import js from './assets/img/jsLogo.svg'
+import reactIcon from '../../assets/img/react.svg'
+import css from '../../assets/img/css.svg'
+import js from '../../assets/img/jsLogo.svg'
 
 
 const Skills = () => {

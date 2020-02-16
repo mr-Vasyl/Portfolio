@@ -2,7 +2,7 @@ import React from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor'
 
 import s from './Contacts.module.css'
-import BlockTitle from "./BlockTitle";
+import BlockTitle from "../BlockTitle/BlockTitle";
 
 
 function Contacts() {

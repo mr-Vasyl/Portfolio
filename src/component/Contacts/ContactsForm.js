@@ -1,7 +1,7 @@
 import React from 'react';
 
 import s from './ContactsForm.module.css'
-import BlockTitle from "./BlockTitle";
+import BlockTitle from "../BlockTitle/BlockTitle";
 
 
 // In the process of work

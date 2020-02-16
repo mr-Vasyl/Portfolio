@@ -2,11 +2,12 @@ import React from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor'
 
 import styles from './Projects.module.css'
-import BlockTitle from "./BlockTitle";
+import BlockTitle from "../BlockTitle/BlockTitle";
 import Project from "./Project";
 
-import project from './assets/img/Portfolio.png'
-
+import portfolio from '../../assets/img/Portfolio.png'
+import social from '../../assets/img/social.png'
+import reStore from '../../assets/img/reStore.png'
 
 class Projects extends React.Component {
     constructor() {
@@ -15,23 +16,23 @@ class Projects extends React.Component {
             state: [
                 {
                     id: 1,
-                    title: 'Social',
-                    description: "Social description",
-                    img: project,
-                    link: "https://mr-vasyl.github.io/Portfolio/"
+                    title: 'Social network',
+                    description: "I used in work - Rest Api, React-Redux, Redux-Thunk, Redux-Form, Axios, React-Router, Reselect and Ant Design",
+                    img: social,
+                    link: "https://mr-vasyl.github.io/Social/"
                 },
                 {
                     id: 2,
-                    title: 'ReStore',
-                    description: "ReStore description",
-                    img: project,
-                    link: "https://mr-vasyl.github.io/Portfolio/"
+                    title: 'Bookstore',
+                    description: "Used - test Service, React-Redux, Redux-Thunk, React-Router, and Bootstrap",
+                    img: reStore,
+                    link: "https://mr-vasyl.github.io/Store/"
                 },
                 {
                     id: 3,
                     title: 'Portfolio',
-                    description: "Portfolio description",
-                    img: project,
+                    description: "React-Particles for animation, local state for the class component, css-modules",
+                    img: portfolio,
                     link: "https://mr-vasyl.github.io/Portfolio/"
                 },
 
