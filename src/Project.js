@@ -1,18 +1,15 @@
 import React from 'react';
-import styles from './Project.module.css'
+import s from './Project.module.css'
 
-function Project(props) {
+const Project = (props) => {
     return (
-        <div className={styles.project}>
-
-            <img src={props.img} />
-            <div className={styles.projectImg} style={props.style}>
-
-                <a className={styles.btnShow} href="https://mr-vasyl.github.io/Portfolio/">Смотреть</a>
+        <div className={s.project} >
+            <img alt="project" src={props.img} />
+            <div className={s.projectImg}>
+                <a className={s.btnShow} href={props.link}>Смотреть</a>
             </div>
-
-            <span className={styles.projectTitle}>{props.title}</span>
-            <span className={styles.description}>{props.description}</span>
+            <span className={s.projectTitle}>{props.title}</span>
+            <span className={s.description}>{props.description}</span>
         </div>
     );
 }

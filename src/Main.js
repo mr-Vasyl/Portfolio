@@ -6,6 +6,7 @@ import s from './Main.module.css'
 
 class Main extends Component {
 
+// animation
     particlesOpt = {
         particles: {
             number: {
@@ -30,7 +31,7 @@ class Main extends Component {
                             <h1>Я Front-end розроботчик</h1>
                         </div>
                         <div className={s.photo}>
-                            <div className={s.image}><img src={window.location.origin + '/logo.png'}/></div>
+                            <div className={s.image}><img alt="avatar" src={window.location.origin + '/logo.png'}/></div>
                         </div>
                     </div>
                 </div>

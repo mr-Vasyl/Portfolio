@@ -1,46 +1,63 @@
 import React from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor'
+
 import styles from './Projects.module.css'
 import BlockTitle from "./BlockTitle";
 import Project from "./Project";
-import {Fade} from "react-reveal";
-import project from './assets/img/project.PNG'
 
-import ScrollableAnchor from 'react-scrollable-anchor'
-function Projects() {
-    const todoListImg ={
-        backgroundImage: 'url(${todoListBgImg})',
-    }
-    const socialNetworkImg = {
-        backgroundImage: 'url(${socialNetworkBgImg})',
-    }
-    const calculatorImg = {
-        backgroundImage: 'url(${calculatorBgImg})',
-    }
-    return (
-        <ScrollableAnchor id={'projects'}>
-        <div className={styles.projects}>
-            {/*<Fade clear>*/}
-            <div className={styles.container}>
-               <BlockTitle title={"WORKS"} />
-                <div className={styles.projectsWrapper}>
+import project from './assets/img/Portfolio.png'
 
-                    <Project title={"To do List"}
-                             style={todoListImg}
-                             img={project}
-                    description={"Tantas mollis propriae ne dudo, ei dico esse eros vix, vim suas discere phaedrum ea. Cu magna adversarium duo. Ei eam ornatus vivendo, quo an autem facilisi."}/>
-                    <Project title={"Social Network"}
-                             style={socialNetworkImg}
-                             description={"Tantas mollis propriae ne duo, ei dico esse eros vix, vim suas discere phaedrum ea. Cu magna adversarium duo. Ei eam ornatus vivendo, quo an autem facilisi."}/>
-                    <Project title={"Calculator"}
-                             style={calculatorImg}
-                             description={"Tantas mollis propriae ne duo, ei dico esse eros vix, vim suas discere phaedrum ea. Cu magna adversarium duo. Ei eam ornatus vivendo, quo an autem facilisi."}/>
+
+class Projects extends React.Component {
+    constructor() {
+        super();
+        this.store = {
+            state: [
+                {
+                    id: 1,
+                    title: 'Social',
+                    description: "Social description",
+                    img: project,
+                    link: "https://mr-vasyl.github.io/Portfolio/"
+                },
+                {
+                    id: 2,
+                    title: 'ReStore',
+                    description: "ReStore description",
+                    img: project,
+                    link: "https://mr-vasyl.github.io/Portfolio/"
+                },
+                {
+                    id: 3,
+                    title: 'Portfolio',
+                    description: "Portfolio description",
+                    img: project,
+                    link: "https://mr-vasyl.github.io/Portfolio/"
+                },
+
+            ]
+        }
+    }
+
+
+    render() {
+        let projectsElements =
+            this.store.state
+                .map(p => <Project title={p.title} description={p.description} img={p.img} key={p.id}
+                                   link={p.link}/>);
+        return (
+            <ScrollableAnchor id={'projects'}>
+                <div className={styles.projects}>
+                    <div className={styles.container}>
+                        <BlockTitle title={"WORKS"}/>
+                        <div className={styles.projectsWrapper}>
+                            {projectsElements}
+                        </div>
+                    </div>
                 </div>
-            </div>
-            {/*</Fade>*/}
-        </div>
-        </ScrollableAnchor>
-    );
-
+            </ScrollableAnchor>
+        );
+    }
 }
 
 export default Projects;
