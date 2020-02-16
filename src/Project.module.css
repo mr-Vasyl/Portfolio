@@ -29,6 +29,9 @@
     flex-direction: column;
 
 }
+.projectTitle {
+    text-align: center;
+}
 .projectImg {
     height: 300px;
     /*background-color: burlywood;*/
@@ -56,6 +59,12 @@
     position: absolute;
 
 }
+/*.btnShow:hover {*/
+/*    */
+/*}*/
+/*.transition {*/
+/*    transition: 0.3s;*/
+/*}*/
 
 /*.btnShow::after {*/
 /*    content: "";*/

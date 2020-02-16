@@ -5,6 +5,7 @@ import Project from "./Project";
 import {Fade} from "react-reveal";
 import project from './assets/img/project.PNG'
 
+import ScrollableAnchor from 'react-scrollable-anchor'
 function Projects() {
     const todoListImg ={
         backgroundImage: 'url(${todoListBgImg})',
@@ -16,8 +17,9 @@ function Projects() {
         backgroundImage: 'url(${calculatorBgImg})',
     }
     return (
+        <ScrollableAnchor id={'projects'}>
         <div className={styles.projects}>
-            <Fade clear>
+            {/*<Fade clear>*/}
             <div className={styles.container}>
                <BlockTitle title={"WORKS"} />
                 <div className={styles.projectsWrapper}>
@@ -34,10 +36,11 @@ function Projects() {
                              description={"Tantas mollis propriae ne duo, ei dico esse eros vix, vim suas discere phaedrum ea. Cu magna adversarium duo. Ei eam ornatus vivendo, quo an autem facilisi."}/>
                 </div>
             </div>
-            </Fade>
+            {/*</Fade>*/}
         </div>
-
+        </ScrollableAnchor>
     );
+
 }
 
 export default Projects;

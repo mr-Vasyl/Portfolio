@@ -1,3 +1,12 @@
+.particles {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.3;
+}
+
 .main {
     height: 100vh;
     position: relative;
@@ -16,12 +25,10 @@
 .greeting {
     display: flex;
     flex-direction: column;
-
 }
 
 .greeting span:nth-child(1) {
     font-size: 16px;
-
 }
 
 h1 {
@@ -64,7 +71,6 @@ h1 {
 
 .photo:hover {
     transform: scale(1.1, 1.1);
-
 }
 
 .image {
@@ -89,6 +95,18 @@ h1 {
     .container {
         flex-direction: column;
     }
+
+    .greeting {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1042px) {
+
+
+    .greeting span:nth-child(2) span:before {
+        content: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -102,17 +120,6 @@ h1 {
 
         width: 260px;
         height: 360px;
-
-
     }
-
 }
 
-.particles {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    opacity: 0.3;
-}

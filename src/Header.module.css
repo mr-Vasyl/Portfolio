@@ -1,9 +1,7 @@
 .header {
     height: 70px;
-    /*background-color: #262626;*/
     display: flex;
     justify-content: center;
-    /*position: relative;*/
     position: absolute;
     width: 100%;
     z-index: 2;

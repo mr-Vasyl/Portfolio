@@ -1,0 +1,104 @@
+/*In the process of work*/
+
+.contacts {
+    background-color: #252527;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.container {
+
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: -30px;
+}
+
+.messageArea, .formArea {
+    background-color: #252527 !important;
+    border: 1px solid #4a4a4a;
+    box-sizing: border-box;
+    font-size: 12px;
+    outline: none;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    margin-bottom: 1.2rem;
+}
+
+.messageArea:focus, .formArea:focus {
+    border: 1px solid transparent;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.messageArea {
+    min-height: 160px;
+    padding: 15px;
+
+}
+
+.formArea {
+    height: calc(1.5em + .75rem + 2px);
+    padding: .4rem 15px;
+
+}
+
+.btnSubmit {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+
+    margin: 0 0 15px;
+    padding: 0px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+
+    max-width: 180px;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    position: relative;
+
+}
+
+.btnSubmit::after {
+    content: "";
+    position: absolute;
+    background-color: coral;
+    width: 86px;
+    height: 8px;
+    bottom: 0;
+    z-index: -1;
+}
+
+.btnSubmit:hover::after {
+    width: 100px;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.btnSubmit:hover {
+    color: white;
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 626px) {
+    .formWrapper {
+        width: 100%;
+    }
+}
