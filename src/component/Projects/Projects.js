@@ -19,14 +19,14 @@ class Projects extends React.Component {
                     title: 'Social network',
                     description: "I used in work - Rest Api, React-Redux, Redux-Thunk, Redux-Form, Axios, React-Router, Reselect and Ant Design",
                     img: social,
-                    link: "https://mr-vasyl.github.io/Social/"
+                    link: "https://mr-vasyl.github.io/social/"
                 },
                 {
                     id: 2,
                     title: 'Bookstore',
                     description: "Used - test Service, React-Redux, Redux-Thunk, React-Router, and Bootstrap",
                     img: reStore,
-                    link: "https://mr-vasyl.github.io/Store/"
+                    link: "https://mr-vasyl.github.io/store/"
                 },
                 {
                     id: 3,
