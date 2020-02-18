@@ -17,7 +17,7 @@ class Projects extends React.Component {
                 {
                     id: 1,
                     title: 'Social network',
-                    description: "I used in work - Rest Api, React-Redux, Redux-Thunk, Redux-Form, Axios, React-Router, Reselect and Ant Design",
+                    description: "I used in work - Rest Api, React-Redux, Redux-Thunk, Redux-Form, Axios, React-Router, Reselect, Ant Design and Grid",
                     img: social,
                     link: "https://mr-vasyl.github.io/social/"
                 },
@@ -31,7 +31,7 @@ class Projects extends React.Component {
                 {
                     id: 3,
                     title: 'Portfolio',
-                    description: "React-Particles for animation, local state for the class component, css-modules",
+                    description: "React-Particles for animation, local state for the class component, css-modules and Flexbox",
                     img: portfolio,
                     link: "https://mr-vasyl.github.io/Portfolio/"
                 },

@@ -20,3 +20,10 @@
     margin-top: -20px;
     text-align: center;
 }
+
+@media screen and (max-width: 480px) {
+    .contact {
+        margin-top: -40px;
+    }
+
+}

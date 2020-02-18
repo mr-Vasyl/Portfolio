@@ -2,11 +2,14 @@
     width: 500px;
     display: flex;
     flex-direction: column;
+
+    /*justify-content: center;//////*/
+    align-items: center;
 }
 
 .projectTitle {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 3px;
     font-size: large;
 }
 
@@ -20,7 +23,7 @@
 
 
 .description {
-    margin: 0 15px 20px;
+    margin: 0 15px 30px;
     text-align: center;
 }
 
@@ -53,6 +56,7 @@
 
 .project img {
     position: absolute;
+
 }
 
 @media screen and (max-width: 1252px) {
@@ -61,3 +65,14 @@
     }
 }
 
+
+@media screen and (max-width: 510px) {
+    .projectImg {
+        height: 228px;
+    }
+
+    .project img {
+        width: 380px;
+        height: 228px;
+    }
+}
