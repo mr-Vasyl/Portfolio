@@ -13,7 +13,7 @@ function Contacts() {
                     <BlockTitle title={"CONTACT INFO"}/>
                     <div className={s.contact}>
                         <div><b>Phone: </b>+380966917833</div>
-                        <div><b>E-mail: </b>motivi.shop@gmail.com</div>
+                        <div><b>E-mail: </b>gerchak9999@gmail.com</div>
                         <div><b>Location: </b>Lviv, Ukraine</div>
                     </div>
                 </div>

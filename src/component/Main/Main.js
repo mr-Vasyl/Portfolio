@@ -28,7 +28,7 @@ class Main extends Component {
                         <div className={s.greeting}>
                             <span>Привіт!</span>
                             <span>Я Василь <span>Герчак</span></span>
-                            <h1>Я Front-end розроботчик</h1>
+                            <h1>Я Front-end розробник</h1>
                         </div>
                         <div className={s.photo}>
                             <div className={s.image}><img alt="avatar" src={logo}/></div>

@@ -31,7 +31,7 @@ class Projects extends React.Component {
                 {
                     id: 3,
                     title: 'Portfolio',
-                    description: "React-Particles for animation, local state for the class component, css-modules and Flexbox",
+                    description: "React-Particles for animation, local state for the class component and Flexbox",
                     img: portfolio,
                     link: "https://mr-vasyl.github.io/Portfolio/"
                 },
