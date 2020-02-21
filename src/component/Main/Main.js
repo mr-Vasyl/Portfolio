@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import Particles from "react-particles-js";
-import logo from '../../assets/img/logo.png'
+import logo from '../../assets/img/logo.jpg'
 import s from './Main.module.css'
 
 class Main extends Component {

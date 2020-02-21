@@ -76,7 +76,6 @@ h1 {
 .image {
     height: 400px;
     width: 300px;
-    background-color: burlywood;
 }
 
 .photo .image:before {
