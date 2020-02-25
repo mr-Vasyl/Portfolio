@@ -7,10 +7,9 @@ import Skills from "./component/Skills/Skills";
 import Projects from "./component/Projects/Projects";
 import Contacts from "./component/Contacts/Contacts";
 import Footer from "./component/Footer/Footer";
-import ContactsForm from "./component/Contacts/ContactsForm";
 
 
-function App() {
+const App = () => {
     return <div className={s.app}>
         <Header/>
         <Main/>

@@ -1,5 +1,5 @@
 .slogan {
-    height: 40vh;
+    height: 45vh;
     background-color: #252527;
     display: flex;
     justify-content: center;
@@ -17,13 +17,18 @@
 }
 
 .contact {
-    margin-top: -20px;
+    margin-top: -30px;
     text-align: center;
 }
 
-@media screen and (max-width: 480px) {
-    .contact {
-        margin-top: -40px;
-    }
+.link {
+    color: white;
+    /*font-weight: 600;*/
+}
 
+.transition:hover {
+    color: coral;
+}
+.transition {
+    transition: 0.5s;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Skill.module.css'
 
-function Skill(props) {
+const Skill = (props) => {
     return (
         <div className={s.skill}>
             <div className={s.icon}>

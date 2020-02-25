@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './BlockTitle.module.css'
 
-function BlockTitle(props) {
+const BlockTitle =(props) => {
     return <> <h2 className={s.title}>{props.title}</h2> </>
 }
 

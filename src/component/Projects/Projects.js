@@ -17,14 +17,14 @@ class Projects extends React.Component {
                 {
                     id: 1,
                     title: 'Social network',
-                    description: "I used in work - Rest Api, React-Redux, Redux-Thunk, Redux-Form, Axios, React-Router, Reselect, Ant Design and Grid",
+                    description: "I use in work - Rest Api, React-Redux, Redux-Thunk, Redux-Form, Axios, React-Router, Reselect, Ant Design and Grid",
                     img: social,
                     link: "https://mr-vasyl.github.io/social/"
                 },
                 {
                     id: 2,
                     title: 'Bookstore',
-                    description: "Used - test Service, React-Redux, Redux-Thunk, React-Router, and Bootstrap",
+                    description: "Use - test Service, React-Redux, Redux-Thunk, React-Router, and Bootstrap",
                     img: reStore,
                     link: "https://mr-vasyl.github.io/store/"
                 },

@@ -1,14 +1,15 @@
 import React from 'react';
-
 import s from './NavMenu.module.css'
 
-function NavMenu() {
+const NavMenu = () => {
+    const link = s.link + " " + s.transition;
     return (
         <div className={s.nav}>
-           <a href="#home" className={s.link}>Home</a>
-            <a href="#skills" className={s.link}>Skills</a>
-            <a href="#projects" className={s.link}>Works</a>
-            <a href="#contacts" className={s.link}>Contacts</a>
+            <a href="#home" className={link}>Home</a>
+            <a href="#skills" className={link}>Skills</a>
+            <a href="#projects" className={link}>Works</a>
+            <a href="#contacts" className={link}>Contacts</a>
+
         </div>
     )
 }
