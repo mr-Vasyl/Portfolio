@@ -3,7 +3,7 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 
 import s from './Contacts.module.css'
 import BlockTitle from "../BlockTitle/BlockTitle";
-import fileCv from "../../assets/Vasyl_Herchak.pdf";
+import fileCv from "../../assets/Vasyl_Herchak_resume.pdf";
 
 
 const Contacts = () => {
