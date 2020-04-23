@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9996f281191ca4a3a75ef56c8f3e586d",
+    "revision": "517affcacbc0614c5e5b641e30d07d83",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "d8d35343861816024c43",
+    "revision": "ef1573b0b45d7db967c3",
     "url": "/portfolio/static/css/main.43af80ad.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.f8ebc561.chunk.js"
   },
   {
-    "revision": "d8d35343861816024c43",
-    "url": "/portfolio/static/js/main.de18aef6.chunk.js"
+    "revision": "ef1573b0b45d7db967c3",
+    "url": "/portfolio/static/js/main.7554f217.chunk.js"
   },
   {
     "revision": "31cc6647e8b105713aae",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Portfolio.111c8300.png"
   },
   {
-    "revision": "8c4aaf4f03d87bab6e84dc6b162d2a22",
-    "url": "/portfolio/static/media/Vasyl_Herchak.8c4aaf4f.pdf"
+    "revision": "38731e32f516abd31cf0f46c6351fac7",
+    "url": "/portfolio/static/media/Vasyl_Herchak_resume.38731e32.pdf"
   },
   {
     "revision": "80ccb9d2b63916bcfd10b5840c125c00",
